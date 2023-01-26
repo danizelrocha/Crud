@@ -21,16 +21,16 @@ main {
 }
 
 .pokedex{
-  width: 100%;
+  width: 108%;
   max-width: 425px;
 }
 
 .pokemon_image{
   position: absolute;
-  bottom: 55%;
-  left: 50%;
+  bottom: 57%;
+  left: 60%;
   transform: translate(-66%, 20%);  /*ACOPANHA A RESPOSIVIDADE DA TELA*/
-  height: 80px;
+  height: 70px;
 }
 
 .pokemon_data{
