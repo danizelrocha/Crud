@@ -25,12 +25,12 @@ main {
   max-width: 425px;
 }
 
-.pokemon_imagem{
+.pokemon_image{
   position: absolute;
-  bottom: 56%;
+  bottom: 55%;
   left: 50%;
   transform: translate(-66%, 20%);  /*ACOPANHA A RESPOSIVIDADE DA TELA*/
-  height: 100px;
+  height: 80px;
 }
 
 .pokemon_data{
@@ -39,7 +39,7 @@ main {
   color: rgb(149, 144, 144);
   top: 52.5%;
   right: 26.5%;  
-  font-size: clamp(8px, 5vw, 25px);
+  font-size: clamp(8px, 5vw, 15px);
 }
 
 .pokemon_name{
@@ -79,6 +79,7 @@ main {
 .button {
     width: 50%;
     padding: 4%;
+    cursor: pointer;
     border: 2px solid #000;
     border-radius: 5px;
     font-size: clamp(8px, 5vw, 1rem);
